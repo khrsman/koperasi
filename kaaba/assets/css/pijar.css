@@ -1,0 +1,139 @@
+body{
+	background: white;
+}
+
+.landing_page {
+    width: 100%;
+    background: url(../images/img1.jpg) no-repeat center center fixed;
+	 -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+    height: 100%;
+      /* Set up positioning */
+  position: absolute;
+  top: 0;
+  left: 0;
+ -webkit-filter: grayscale(40%); /* Chrome, Safari, Opera */
+    filter: grayscale(40%);
+}
+
+.landing_page img{
+	width: 20%;
+	position: fixed;
+	top: 52%;
+	left: 50%;
+  	transform: translate(-50%, -50%);
+
+}
+
+
+
+.landing_page a{
+	position: fixed;
+	top: 75%;
+	left: 50%;
+  	transform: translate(-50%, -50%);
+  	width: 150px;
+  	text-align: center;
+
+}
+
+.brand_name img{
+	width:7%;
+}
+
+
+.brand {
+  padding: 10px 17px 8px;
+  background: #262626;
+}
+
+.brand {
+  padding: 10px 17px 8px;
+  background: #262626;
+}
+.main_menu{
+	width: 50%;
+	margin-top: 20px;
+	/*background: yellow;*/
+}
+
+
+
+.main_menu_btn {
+    display: inline-block; 
+    padding: 10px;
+    line-height: 30px;
+    color: #fff;
+    background: #ef4023;
+    font-weight: 400;
+    font-size: 22px;
+    width: 200px;
+    text-align: center;
+}
+
+.parallax4 {
+    background-image: url(../images/back_mainmenu.jpg);
+    padding: 60px 0 154px;
+}
+
+.main_footer_copy{
+	position: relative;
+	width: 100%;
+	top:100%;
+	z-index: 1;
+	background: #222222;
+	color:white;
+	font-size: 14px;
+
+}
+
+.owl-carousel {
+    left: 3%;
+    display: block;
+}
+
+/*.item{
+	background: rgba(4,4,4,0.6);
+}
+*/
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+	.landing_page {
+    	right: 50%;
+  	}
+  	.landing_page img{
+		width: 50%;
+	}
+	.landing_page a{
+		position: fixed;
+		top: 78%;
+		left: 50%;
+	  	transform: translate(-50%, -50%);
+	  	width: 100px;
+	}
+
+	.brand_name img{
+		width:20%;
+	}
+
+	.main_menu{
+		width: 80%;
+		/*background: yellow;*/
+	}
+
+	.main_menu_btn {
+	    font-size: 13px;
+	    width: 100px;
+	    margin: 0 auto;
+	}
+
+	.owl-carousel {
+    	left: 0%;
+	}
+
+
+	
+
+}

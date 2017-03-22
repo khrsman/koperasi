@@ -1,0 +1,99 @@
+[10-May-2016 10:29:51 America/Chicago] PHP Fatal error:  Call to undefined method Core_banking_api::share_profit() in /home/admin/public_html/dashboard/application/controllers/gerai/Pulsa.php on line 420
+[10-May-2016 10:43:14 America/Chicago] PHP Fatal error:  Call to undefined method Core_banking_api::share_profit() in /home/admin/public_html/dashboard/application/controllers/gerai/Pulsa.php on line 420
+[10-May-2016 10:46:29 America/Chicago] PHP Fatal error:  Call to undefined method Core_banking_api::share_profit() in /home/admin/public_html/dashboard/application/controllers/gerai/Pulsa.php on line 428
+[10-May-2016 10:47:27 America/Chicago] PHP Fatal error:  Call to undefined method Core_banking_api::share_profit() in /home/admin/public_html/dashboard/application/controllers/gerai/Pulsa.php on line 430
+[10-May-2016 10:56:21 America/Chicago] PHP Fatal error:  Call to undefined method Core_banking_api::share_profit() in /home/admin/public_html/dashboard/application/controllers/gerai/Pulsa.php on line 430
+[10-May-2016 10:57:50 America/Chicago] PHP Fatal error:  Call to undefined method Core_banking_api::share_profit() in /home/admin/public_html/dashboard/application/controllers/gerai/Pulsa.php on line 430
+[10-May-2016 15:12:36 America/Chicago] PHP Fatal error:  Call to undefined method Core_banking_api::share_profit() in /home/admin/public_html/dashboard/application/controllers/gerai/Pulsa.php on line 430
+[10-May-2016 15:16:14 America/Chicago] PHP Fatal error:  Call to undefined method Core_banking_api::share_profit() in /home/admin/public_html/dashboard/application/controllers/gerai/Pulsa.php on line 430
+[10-May-2016 15:17:59 America/Chicago] PHP Fatal error:  Call to undefined method Core_banking_api::share_profit() in /home/admin/public_html/dashboard/application/controllers/gerai/Pulsa.php on line 430
+[11-May-2016 09:53:49 America/Chicago] PHP Fatal error:  Call to undefined method Core_banking_api::share_profit() in /home/admin/public_html/dashboard/application/controllers/gerai/Pulsa.php on line 430
+[11-May-2016 15:41:51 America/Chicago] PHP Fatal error:  Call to undefined method Core_banking_api::share_profit() in /home/admin/public_html/BACKUP_DEDICATED_2016-05-11_2300/dashboard/application/controllers/gerai/Pulsa.php on line 430
+[11-May-2016 15:52:13 America/Chicago] PHP Fatal error:  Call to undefined method Core_banking_model::get_profit_rule_sharing_by_koperasi() in /home/admin/public_html/BACKUP_DEDICATED_2016-05-11_2300/dashboard/application/libraries/Core_banking_api.php on line 372
+[11-May-2016 23:45:03 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home/admin/public_html/dashboard/application/views/dashboard.php on line 93
+[11-May-2016 23:50:35 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home/admin/public_html/dashboard/application/views/dashboard.php on line 93
+[12-May-2016 00:00:29 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home/admin/public_html/dashboard/application/views/dashboard.php on line 93
+[12-May-2016 00:04:06 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home/admin/public_html/dashboard/application/views/dashboard.php on line 93
+[12-May-2016 00:25:46 America/Chicago] PHP Fatal error:  Call to a member function get_nominal() on a non-object in /home/admin/public_html/dashboard/application/controllers/gerai/Pulsa.php on line 104
+[12-May-2016 00:25:47 America/Chicago] PHP Fatal error:  Call to a member function get_nominal() on a non-object in /home/admin/public_html/dashboard/application/controllers/gerai/Pulsa.php on line 104
+[12-May-2016 00:30:32 America/Chicago] PHP Fatal error:  Call to a member function insert() on a non-object in /home/admin/public_html/dashboard/application/controllers/gerai/Pulsa.php on line 402
+[12-May-2016 00:32:26 America/Chicago] PHP Fatal error:  Call to a member function insert() on a non-object in /home/admin/public_html/dashboard/application/controllers/gerai/Pulsa.php on line 402
+[12-May-2016 00:34:23 America/Chicago] PHP Fatal error:  Call to undefined method Core_banking_api::share_profit() in /home/admin/public_html/dashboard/application/controllers/gerai/Pulsa.php on line 430
+[12-May-2016 00:36:01 America/Chicago] PHP Fatal error:  Call to undefined method Core_banking_api::generate_no_transaksi() in /home/admin/public_html/dashboard/application/libraries/Core_banking_api.php on line 317
+[12-May-2016 01:15:52 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home/admin/public_html/dashboard/application/views/dashboard.php on line 93
+[12-May-2016 01:41:32 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home/admin/public_html/dashboard/application/views/dashboard.php on line 93
+[12-May-2016 21:39:19 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home/admin/public_html/dashboard/application/views/dashboard.php on line 93
+[13-May-2016 02:58:29 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home/admin/public_html/dashboard/application/views/dashboard.php on line 93
+[13-May-2016 02:58:32 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home/admin/public_html/dashboard/application/views/dashboard.php on line 93
+[13-May-2016 02:58:57 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home/admin/public_html/dashboard/application/views/dashboard.php on line 93
+[13-May-2016 08:46:31 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home/admin/public_html/dashboard/application/views/dashboard.php on line 93
+[13-May-2016 08:46:34 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home/admin/public_html/dashboard/application/views/dashboard.php on line 93
+[13-May-2016 08:46:41 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home/admin/public_html/dashboard/application/views/dashboard.php on line 93
+[13-May-2016 23:44:56 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home/admin/public_html/dashboard/application/views/dashboard.php on line 93
+[14-May-2016 02:39:28 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home/admin/public_html/dashboard/application/views/dashboard.php on line 93
+[14-May-2016 02:48:35 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home/admin/public_html/dashboard/application/views/dashboard.php on line 93
+[14-May-2016 02:48:39 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home/admin/public_html/dashboard/application/views/dashboard.php on line 93
+[14-May-2016 22:54:21 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home/admin/public_html/dashboard/application/views/dashboard.php on line 93
+[15-May-2016 12:59:12 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home/admin/public_html/dashboard/application/views/dashboard.php on line 93
+[15-May-2016 12:59:35 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home/admin/public_html/dashboard/application/views/dashboard.php on line 93
+[15-May-2016 12:59:48 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home/admin/public_html/dashboard/application/views/dashboard.php on line 93
+[15-May-2016 22:58:26 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home/admin/public_html/dashboard/application/views/dashboard.php on line 93
+[15-May-2016 22:59:03 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home/admin/public_html/dashboard/application/views/dashboard.php on line 93
+[15-May-2016 23:23:38 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home/admin/public_html/dashboard/application/views/dashboard.php on line 93
+[16-May-2016 00:43:14 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home/admin/public_html/dashboard/application/views/dashboard.php on line 93
+[16-May-2016 00:58:08 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home/admin/public_html/dashboard/application/views/dashboard.php on line 93
+[16-May-2016 04:55:56 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home/admin/public_html/dashboard/application/views/dashboard.php on line 93
+[16-May-2016 05:17:09 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home/admin/public_html/dashboard/application/views/dashboard.php on line 93
+[16-May-2016 05:17:12 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home/admin/public_html/dashboard/application/views/dashboard.php on line 93
+[16-May-2016 06:08:37 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home/admin/public_html/dashboard/application/views/dashboard.php on line 93
+[16-May-2016 08:54:29 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home/admin/public_html/dashboard/application/views/dashboard.php on line 93
+[16-May-2016 08:57:40 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home/admin/public_html/dashboard/application/views/dashboard.php on line 93
+[16-May-2016 10:25:14 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home/admin/public_html/dashboard/application/views/dashboard.php on line 93
+[16-May-2016 10:32:35 America/Chicago] PHP Fatal error:  Call to a member function result() on a non-object in /home/admin/public_html/dashboard/application/views/dashboard.php on line 93
+[17-May-2016 03:07:48 America/Chicago] PHP Fatal error:  Call to undefined method Rekening_mod::get_vendor() in /home/admin/public_html/dashboard/application/controllers/gerai/H2h.php on line 51
+[19-May-2016 01:05:42 Asia/Jakarta] PHP Fatal error:  Call to a member function charge() on a non-object in /home/admin/public_html/dashboard/application/controllers/Vsi_server.php on line 47
+[21-May-2016 21:23:08 Asia/Jakarta] PHP Fatal error:  Call to undefined function l() in /home/admin/public_html/dashboard/application/controllers/Store.php on line 17
+[21-May-2016 22:02:15 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ')' in /home/admin/public_html/dashboard/application/controllers/Store.php on line 150
+[21-May-2016 22:02:17 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ')' in /home/admin/public_html/dashboard/application/controllers/Store.php on line 150
+[02-Jun-2016 22:13:21 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '}' in /home/indocoop/public_html/dashboard/application/views/template/sidebar_admin.php on line 33
+[13-Jun-2016 00:22:20 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/admin/public_html/dashboard/application/views/koperasi/shu_koperasi.php on line 42
+[13-Jun-2016 00:23:24 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/admin/public_html/dashboard/application/views/koperasi/shu_koperasi.php on line 42
+[13-Jun-2016 00:28:31 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/admin/public_html/dashboard/application/views/koperasi/shu_koperasi.php on line 42
+[13-Jun-2016 00:29:59 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/admin/public_html/dashboard/application/views/koperasi/shu_koperasi.php on line 42
+[13-Jun-2016 00:30:09 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/admin/public_html/dashboard/application/views/koperasi/shu_koperasi.php on line 42
+[13-Jun-2016 00:30:31 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/admin/public_html/dashboard/application/views/koperasi/shu_koperasi.php on line 42
+[13-Jun-2016 00:31:35 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/admin/public_html/dashboard/application/views/koperasi/shu_koperasi.php on line 42
+[21-Jun-2016 13:34:55 Asia/Jakarta] PHP Fatal error:  Call to a member function result() on a non-object in /home/admin/public_html/dashboard/application/views/new_foot.php on line 10
+[23-Sep-2016 00:49:09 Asia/Jakarta] PHP Fatal error:  Call to a member function result() on a non-object in /home/cimahi1/public_html/dashboard/application/controllers/Anggota.php on line 326
+[23-Sep-2016 00:49:14 Asia/Jakarta] PHP Fatal error:  Call to a member function result() on a non-object in /home/cimahi1/public_html/dashboard/application/controllers/Anggota.php on line 326
+[23-Sep-2016 00:49:20 Asia/Jakarta] PHP Fatal error:  Call to a member function result() on a non-object in /home/cimahi1/public_html/dashboard/application/controllers/Anggota.php on line 326
+[23-Sep-2016 00:50:12 Asia/Jakarta] PHP Fatal error:  Call to a member function result() on a non-object in /home/cimahi1/public_html/dashboard/application/controllers/Anggota.php on line 326
+[23-Sep-2016 00:50:24 Asia/Jakarta] PHP Fatal error:  Call to a member function result() on a non-object in /home/cimahi1/public_html/dashboard/application/controllers/Anggota.php on line 326
+[23-Sep-2016 00:50:49 Asia/Jakarta] PHP Fatal error:  Call to a member function result() on a non-object in /home/cimahi1/public_html/dashboard/application/controllers/Anggota.php on line 326
+[23-Sep-2016 00:51:10 Asia/Jakarta] PHP Fatal error:  Call to a member function result() on a non-object in /home/cimahi1/public_html/dashboard/application/controllers/Anggota.php on line 326
+[23-Sep-2016 00:53:20 Asia/Jakarta] PHP Fatal error:  Call to a member function result() on a non-object in /home/cimahi1/public_html/dashboard/application/controllers/Anggota.php on line 326
+[23-Sep-2016 00:56:02 Asia/Jakarta] PHP Fatal error:  Call to a member function result() on a non-object in /home/cimahi1/public_html/dashboard/application/controllers/Anggota.php on line 326
+[23-Sep-2016 01:12:56 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/cimahi1/public_html/dashboard/application/controllers/Rekening.php on line 29
+[23-Sep-2016 01:13:00 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/cimahi1/public_html/dashboard/application/controllers/Rekening.php on line 29
+[23-Sep-2016 16:10:13 Asia/Jakarta] PHP Parse error:  syntax error, unexpected ''pekerjaan' (T_ENCAPSED_AND_WHITESPACE) in /home/cimahi1/public_html/dashboard/application/config/routes.php on line 144
+[30-Sep-2016 21:58:54 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/cimahi1/public_html/dashboard/application/models/Koperasi_mod.php on line 170
+[30-Sep-2016 21:59:21 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/cimahi1/public_html/dashboard/application/models/Koperasi_mod.php on line 170
+[30-Sep-2016 21:59:23 Asia/Jakarta] PHP Fatal error:  Call to a member function num_rows() on a non-object in /home/cimahi1/public_html/dashboard/application/models/Koperasi_mod.php on line 170
+[01-Oct-2016 00:15:02 Asia/Jakarta] PHP Fatal error:  Call to a member function result() on a non-object in /home/cimahi1/public_html/dashboard/application/views/new_foot.php on line 10
+[01-Oct-2016 00:15:56 Asia/Jakarta] PHP Fatal error:  Call to a member function result() on a non-object in /home/cimahi1/public_html/dashboard/application/views/new_foot.php on line 10
+[01-Oct-2016 00:18:08 Asia/Jakarta] PHP Fatal error:  Call to a member function result() on a non-object in /home/cimahi1/public_html/dashboard/application/views/new_foot.php on line 10
+[01-Oct-2016 00:35:35 Asia/Jakarta] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/cimahi1/public_html/dashboard/application/views/new_head.php on line 55
+[01-Oct-2016 00:48:59 Asia/Jakarta] PHP Fatal error:  Call to a member function result() on a non-object in /home/cimahi1/public_html/dashboard/application/views/new_foot.php on line 10
+[01-Oct-2016 00:52:32 Asia/Jakarta] PHP Fatal error:  Call to a member function result() on a non-object in /home/cimahi1/public_html/dashboard/application/views/new_foot.php on line 10
+[01-Oct-2016 00:52:37 Asia/Jakarta] PHP Fatal error:  Call to a member function result() on a non-object in /home/cimahi1/public_html/dashboard/application/views/new_foot.php on line 10
+[01-Oct-2016 00:52:40 Asia/Jakarta] PHP Fatal error:  Call to a member function result() on a non-object in /home/cimahi1/public_html/dashboard/application/views/new_foot.php on line 10
+[01-Oct-2016 00:52:44 Asia/Jakarta] PHP Fatal error:  Call to a member function result() on a non-object in /home/cimahi1/public_html/dashboard/application/views/new_foot.php on line 10
+[01-Oct-2016 00:57:13 Asia/Jakarta] PHP Fatal error:  Call to a member function result() on a non-object in /home/cimahi1/public_html/dashboard/application/views/new_foot.php on line 10
+[01-Oct-2016 03:07:20 Asia/Jakarta] PHP Fatal error:  Call to a member function result() on a non-object in /home/cimahi1/public_html/dashboard/application/views/new_foot.php on line 10
+[01-Oct-2016 03:12:45 Asia/Jakarta] PHP Fatal error:  Call to a member function result() on a non-object in /home/cimahi1/public_html/dashboard/application/views/new_foot.php on line 10
+[02-Oct-2016 19:36:19 Asia/Jakarta] PHP Fatal error:  Call to undefined method Store_product_model::get_member_all() in /home/cimahi1/public_html/dashboard/application/controllers/store/Product.php on line 615
+[02-Oct-2016 19:39:18 Asia/Jakarta] PHP Fatal error:  Call to undefined method Store_product_model::get_member_all() in /home/cimahi1/public_html/dashboard/application/controllers/store/Product.php on line 615
+[02-Oct-2016 19:39:20 Asia/Jakarta] PHP Fatal error:  Call to undefined method Store_product_model::get_member_all() in /home/cimahi1/public_html/dashboard/application/controllers/store/Product.php on line 615
+[02-Oct-2016 19:39:21 Asia/Jakarta] PHP Fatal error:  Call to undefined method Store_product_model::get_member_all() in /home/cimahi1/public_html/dashboard/application/controllers/store/Product.php on line 615
+[02-Oct-2016 19:39:22 Asia/Jakarta] PHP Fatal error:  Call to undefined method Store_product_model::get_member_all() in /home/cimahi1/public_html/dashboard/application/controllers/store/Product.php on line 615
+[18-Oct-2016 13:43:21 Asia/Jakarta] PHP Fatal error:  Call to undefined method Gerai_vendor_produk_model::get_admin_fee() in /home/cimahi1/public_html/dashboard/application/controllers/gerai/telepon/Telkom.php on line 28

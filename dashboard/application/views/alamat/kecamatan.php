@@ -1,0 +1,1 @@
+ <?= form_dropdown('kecamatan', $option_kecamatan,"", "id='kecamatan_id' class='form-control'")?>

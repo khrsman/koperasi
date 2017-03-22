@@ -1,0 +1,204 @@
+.no-margin{
+	margin:0;
+}
+.no-padding{
+	padding:0;
+}
+.compro-canvas{
+    font-size: 14px;
+    color: #000000;
+    font-family: "Roboto";
+}
+.cover-koperasi{
+	background: #354B5F;
+	height: 220px;
+	position: relative;
+	background-size: cover;
+}
+.cover-koperasi .logo-koperasi{
+	width: 220px;
+	height: 220px;
+	position: absolute;
+    bottom: -80px;
+	left: 20px;
+	z-index: 10;
+	box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.18);
+	overflow: hidden;
+}
+.cover-koperasi .logo-koperasi img{
+	width:100%;
+}
+.compro-nav{
+  background-color: rgb(249, 249, 249);
+  box-shadow: 0px 1px 0px 0px rgba(121, 120, 120, 0.37);
+}
+.compro-nav ul{
+	list-style: none;
+    margin-left: 300px;
+    margin-bottom: 0;
+}
+.compro-nav ul li{
+    padding: 12px 0px;
+	display: inline-block;
+}
+.compro-nav ul li a{
+	padding: 5px 30px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #777777;
+    font-family: "Roboto";
+    border-right: 1px solid #DCDCDC;
+}
+.compro-nav ul li a.active{
+	color:#000;
+}
+.compro-nav ul li:last-child a{
+	border-right: none;
+}
+.compro-profile.page{
+    padding-top: 20px;
+}
+.compro-profile{
+    padding: 60px 20px 0px;
+}
+.compro-profile .profile-name{
+	font-size: 24px;
+	font-weight: 500;
+	font-family: "Roboto";
+	color: #000000;
+}
+.compro-profile .profile-desc{
+    margin-top: 10px;
+    color: #000;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+.compro-profile .profile-desc a{
+	color:#000;
+}
+.compro-profile .profile-caption{
+	margin: 10px 0px;
+}
+.compro-profile .profile-caption > .caption-header{
+	font-weight: 500;
+    color: #000;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+.compro-profile .profile-caption > .caption-content{
+    color: #000;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+.box-content{
+	border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.box-content ul{
+	list-style: none;
+    padding-top: 10px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+.box-content ul li{
+	padding: 10px 20px;
+}
+.box-content ul li .list-thumbnail{
+	background: #ddd;
+    height: 130px;
+    background-size: cover;
+}
+.box-content ul li .list-content.empty{
+	text-align: center;
+}
+.box-content ul li .list-content{
+	padding-left: 20px;
+}
+.box-content ul li .list-content .list-title{
+	font-size: 24px;
+}
+.box-content ul li .list-content .list-title > a{
+	color: #000;
+}
+.box-content ul li .list-content .list-time{
+	font-size: 12px;
+    margin-top: 2px;
+}
+.box-content ul li .list-content .list-desc{
+	font-size: 15px;
+}
+.box-content ul li .list-content .list-more{
+	margin-top: 10px;
+}
+.box-content ul li .list-content .list-more > a{
+	font-weight: 400;
+    color:  #000;
+}
+.box-content .load-more{
+    text-align: center;
+    margin: 5px 0px 20px;
+}
+.box-content .load-more > button{
+    padding: 5px 20px;
+    text-transform: uppercase;
+}
+.content-page{
+	padding: 20px;
+}
+.content-page .content-title{
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.content-page .content-time-created{
+    margin-bottom: 10px;
+}
+.content-page .content-thumbnail{
+	overflow: hidden;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.content-page .content-content{
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+}
+.content-page .content-content a{
+	color: #000;
+}
+.content-page .content-event{
+    font-size: 20px;
+    padding: 10px 0 15px;
+    text-align: center;
+}
+.list-compro{
+    box-shadow: 0px 1px 1px 1px rgba(220, 220, 220, 0.8);
+    -webkit-box-shadow: 0px 1px 1px 1px rgba(220, 220, 220, 0.8);
+    -moz-box-shadow: 0px 1px 1px 1px rgba(220, 220, 220, 0.8);
+    margin-bottom: 20px;
+    background: #f3f3f3;
+}
+.list-compro .compro-thumbnail{
+    background-size: cover;
+    height: 185px;
+    border-right: 1px solid #e4e4e4;
+}
+.list-compro .compro-title{
+    font-size: 24px;
+    padding: 15px 20px 0px;
+    height: 42px;
+    overflow: hidden;
+    font-family: "Roboto";
+}
+.list-compro .compro-title a{
+    color: #000;
+    font-weight: 400;
+}
+.list-compro .compro-desc{
+    padding: 5px 20px 0px 20px;
+}
+.list-compro p.captions{
+    font-size: 16px;
+    color: #000;
+    font-weight: 300;
+    font-family: "Roboto";
+}
