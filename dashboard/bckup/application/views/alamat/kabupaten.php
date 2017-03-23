@@ -1,1 +1,0 @@
-<?= form_dropdown('kota_id', $option_kabupaten,"", "id='kabupaten_id' class='form-control'")?>
