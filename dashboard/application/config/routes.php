@@ -420,3 +420,4 @@ $route['report_pengiriman_barang'] = "report/data_pengiriman_produk";
 
 $route['report_data_koperasi'] = "report/data_koperasi";
 $route['report_data_komunitas'] = "report/data_komunitas";
+$route['validasi_manager'] = "validasi_manager/check_user";

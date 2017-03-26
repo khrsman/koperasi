@@ -1,4 +1,4 @@
-<?php 
+<?php
 $this->load->view('template/head');
 ?>
 <!--tambahkan custom css disini-->
@@ -46,7 +46,7 @@ $this->load->view('template/sidebar');
                                 </tr>
                             </thead>
                             <tbody>
-                            <?php 
+                            <?php
                             foreach ($nasabah_rek->result() as $nasabah_temp) { ?>
                                 <tr>
                                     <td><a href="<?php echo base_url() . 'nasabah/' . $nasabah_temp->id_user ?>"><?php echo $nasabah_temp->nama_lengkap ?></a></td>
@@ -55,24 +55,33 @@ $this->load->view('template/sidebar');
                                     <td style="text-align:right;">Rp. <?php echo number_format($nasabah_temp->saldo_loyalti);?>.00</td>
                                     <td><?php echo $nasabah_temp->tanggal_registrasi ?></td>
                                     <td><?php echo $nasabah_temp->tanggal_transaksi_terakhir ?></td>
-                                    <td><a class="btn btn-primary" href="<?php echo base_url() . 'nasabah/' . $nasabah_temp->id_user ?>">Lihat</a></td>
+                                    <td><a class="btn btn-primary" href="<?php echo base_url() . 'nasabah/' . $nasabah_temp->id_user ?>">Lihat</a>
+                                    </td>
                                 </tr>
                             <?php } ?>
                             </tbody>
                         </table>
                     </div>
-
                 </div>
         </div><!-- /.col -->
     </div><!-- /.row -->
 </section><!-- /.content -->
-<?php 
+<?php
 $this->load->view('template/js');
 ?>
 <!--tambahkan custom js disini-->
 <script src="<?= base_url() ?>assets/AdminLTE-2.0.5/plugins/datatables/jquery.dataTables.js" type="text/javascript"></script>
 <script src="<?= base_url() ?>assets/AdminLTE-2.0.5/plugins/datatables/dataTables.bootstrap.js" type="text/javascript"></script>
 <script>
+
+// proses validasi oleh manager untuk melanjutkan action selanjutnya
+// belum diintegrasikan
+$('.validasi').click(function (){
+  var action = $(this).val();
+  $('#page_validasi').show();
+  $('#action').val(action);
+});
+
     $(document).ready(function(){
         $('.dataUser').dataTable({
             "paging": true,
@@ -86,4 +95,9 @@ $this->load->view('template/js');
 </script>
 <?php
 $this->load->view('template/foot');
+?>
+
+<?php
+// function untuk validasi manager
+$this->load->view('validasi_manager');
 ?>

@@ -104,7 +104,7 @@
                     </div> -->
                 </div>
             </div>
-            
+
         </div>
 
 
@@ -121,16 +121,16 @@
                     Fullscreen background
                 */
                 $.backstretch("<?= base_url()?>assets/bootstrap-login-forms/form-1/assets/img/backgrounds/1.jpg");
-                
+
                 /*
                     Form validation
                 */
                 $('.login-form input[type="text"], .login-form input[type="password"], .login-form textarea').on('focus', function() {
                     $(this).removeClass('input-error');
                 });
-                
+
                 $('.login-form').on('submit', function(e) {
-                    
+
                     $(this).find('input[type="text"], input[type="password"], textarea').each(function(){
                         if( $(this).val() == "" ) {
                             e.preventDefault();
@@ -140,14 +140,14 @@
                             $(this).removeClass('input-error');
                         }
                     });
-                    
+
                 });
-                
-                
+
+
             });
 
         </script>
-        
+
         <!--[if lt IE 10]>
             <script src="<?= base_url() ?>assets/bootstrap-login-forms/form-1/assets/js/placeholder.js"></script>
         <![endif]-->

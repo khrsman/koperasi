@@ -1,4 +1,4 @@
-<?php 
+<?php
 $this->load->view('template/head');
 ?>
 <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets/css/style.css">
@@ -85,7 +85,8 @@ $this->load->view('template/sidebar');
                         </div>
                     </div>
                     <div class="box-footer">
-                        <button type="submit" class="btn btn-primary full-width">Simpan Perubahan</button>
+                        <a class="btn btn-primary full-width validasi" >Proses</a>
+                        <button type="submit" class="btn btn-primary full-width" id= 'simpan_perubahan' style="display:none">Simpan Perubahan</button>
                     </div>
                 </div>
             </div>
@@ -119,7 +120,7 @@ $this->load->view('template/sidebar');
             <p class="col-xs-5 col-md-5 no-padding">Waktu Transaksi Terakhir</p>
             <p class="col-xs-7 col-md-7 no-padding"><b><span>{%= o.tanggal_transaksi_terakhir %}</span></b></p>
         </li>
-    </ul>   
+    </ul>
 {% } %}
 </script>
 <script id="tmpl-nasabah-error" type="text/x-tmpl">
@@ -136,13 +137,47 @@ $this->load->view('template/sidebar');
         </div>
     </div>
 </script>
-<?php 
+<?php
 $this->load->view('template/js');
 ?>
 <script type="text/javascript" src="<?php echo base_url() ?>assets/js/tmpl.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url() ?>assets/js/bootstrap-select.min.js"></script>
 <script type="text/javascript" src="<?php echo base_url() ?>assets/js/ajax-bootstrap-select.js"></script>
 <script>
+
+// edited by kaharisman on 26 maret 2017 - 21.00
+// penambahan button untuk validasi manager
+// modal validasi nya di view validasi manager
+
+// start kaharisman
+$(document).ready(function() {
+  // munculkan halaman validasi manager
+  $('.validasi').click(function (){
+    $('#page_validasi').show();
+  });
+  // verifikasi username dan password manager
+  // apabila berhasil, submit data menggunakan fungsi submit yudi
+  $('#verifikasi').click(function (){
+      var username = $('#username_manager').val();
+      var password = $('#password_manager').val();
+    	// proses validasi login manager
+      $.post("validasi_manager", {username: username, password: password}, function(result){
+        if(result.level == '6'){									// 6 merupakan kode level manager
+          $('#simpan_perubahan').show();
+          $('#page_validasi').hide();
+          $('.validasi').hide();
+          $('#simpan_perubahan').submit();        // auto submit setelah validasi
+        } else {
+    			$('#login_manager_error').show();
+    		  $('#password_manager').val("");
+        }
+    },"json");
+});
+});
+// end kaharisman
+
+
+
     var options = {
         ajax          : {
             url     : '<?php echo $this->rekening_mod->id_koperasi ? base_url() . "rekening/cari_nasabah?mod=tabungan&is_koperasi=true" : base_url() . "rekening/cari_nasabah?mod=tabungan" ?>',
@@ -267,4 +302,9 @@ $.fn.serializeObject = function()
 </script>
 <?php
 $this->load->view('template/foot');
+?>
+
+<?php
+// function untuk validasi manager
+$this->load->view('validasi_manager');
 ?>
